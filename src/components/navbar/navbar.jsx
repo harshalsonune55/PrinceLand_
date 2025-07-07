@@ -42,7 +42,7 @@ export default function Navbar() {
                 <Link to="/projects" className="block px-4 py-2 hover:bg-gray-800">
                   Projects
                 </Link>
-                <Link to="/projects/detail" className="block px-4 py-2 hover:bg-gray-800">
+                <Link to="/projectDetail" className="block px-4 py-2 hover:bg-gray-800">
                   Project Detail
                 </Link>
               </div>

@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/navbar";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Project from "./pages/project/project";
+import ProjectDetail from "./pages/project/projectDetail.jsx/project_Det";
 function App() {
 
 
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
-        {/* <Route path="/projectsDetail" element={<ProjectsDel />} /> */}
+        <Route path="/projectDetail" element={<ProjectDetail />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
     </Router>

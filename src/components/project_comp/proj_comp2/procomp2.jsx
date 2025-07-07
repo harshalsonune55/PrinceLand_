@@ -9,6 +9,8 @@ import {
 const ProjectsHeader = () => {
   const [selectedCity, setSelectedCity] = useState("All Projects");
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 6;
 
   const cities = [
     "All Projects",
@@ -33,6 +35,42 @@ const ProjectsHeader = () => {
       icon: <FaBuilding size={24} />,
     },
     {
+        id: 1,
+        city: "New York",
+        name: "Tower Business Center",
+        image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+        description:
+          "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        id: 1,
+        city: "New York",
+        name: "Tower Business Center",
+        image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+        description:
+          "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        id: 1,
+        city: "New York",
+        name: "Tower Business Center",
+        image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+        description:
+          "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
+        icon: <FaBuilding size={24} />,
+      },
+      {
+        id: 1,
+        city: "New York",
+        name: "Tower Business Center",
+        image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+        description:
+          "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
+        icon: <FaBuilding size={24} />,
+      },
+    {
       id: 2,
       city: "Los Angeles",
       name: "Kvartal Residences",
@@ -56,23 +94,27 @@ const ProjectsHeader = () => {
     ? projects
     : projects.filter(p => p.city === selectedCity);
 
+  const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
+  const startIndex = (currentPage - 1) * projectsPerPage;
+  const currentProjects = filteredProjects.slice(startIndex, startIndex + projectsPerPage);
+
   return (
     <div className="bg-white text-gray-900">
       {/* Header Section */}
       <div className="relative w-full h-screen">
         <img
-          src="/your-image-path/b10dd307-c45e-48db-bd3f-3b8802b42d0a.png"
+          src="project_back.png"
           alt="Building"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-60" />
+        <div className="absolute inset-0 " />
         <div className="relative z-10 flex flex-col justify-center h-full px-10 text-white">
           <div className="text-sm mb-2">
             <span className="text-gray-300">Home</span>
             <span className="mx-2">&#8594;</span>
             <span className="text-orange-500">Projects</span>
           </div>
-          <h1 className="text-5xl font-bold">Our projects</h1>
+          <h1 className="text-8xl font-bold">Our projects</h1>
         </div>
       </div>
 
@@ -112,6 +154,7 @@ const ProjectsHeader = () => {
                         onClick={() => {
                           setSelectedCity(city);
                           setDropdownOpen(false);
+                          setCurrentPage(1);
                         }}
                         className="px-4 py-2 hover:bg-[#3a3f45] cursor-pointer"
                       >
@@ -130,7 +173,7 @@ const ProjectsHeader = () => {
       <section className="bg-[#fff7ee] py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-4">
-            {filteredProjects.map((card, index) => (
+            {currentProjects.map((card, index) => (
               <div
                 key={index}
                 className="relative overflow-hidden rounded-md shadow-lg group"
@@ -161,10 +204,34 @@ const ProjectsHeader = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="mt-10 text-center">
-            <button className="bg-gray-800 text-white text-sm px-6 py-3 rounded-md hover:bg-gray-700 transition">
-              See all projects
+          {/* Pagination Controls */}
+          <div className="flex justify-center items-center mt-12 space-x-4">
+            <button
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-6 py-3 bg-gray-200 text-gray-700 font-medium skew-x-[-20deg] disabled:opacity-50"
+            >
+              <span className="inline-block skew-x-[20deg]">Prev</span>
+            </button>
+
+            {[...Array(totalPages)].map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentPage(i + 1)}
+                className={`px-4 py-2 border skew-x-[-20deg] ${
+                  currentPage === i + 1 ? "bg-orange-500 text-white" : "border-gray-300 text-gray-700"
+                }`}
+              >
+                <span className="inline-block skew-x-[20deg]">{i + 1}</span>
+              </button>
+            ))}
+
+            <button
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-6 py-3 bg-gray-200 text-gray-700 font-medium skew-x-[-20deg] disabled:opacity-50"
+            >
+              <span className="inline-block skew-x-[20deg]">Next</span>
             </button>
           </div>
         </div>
