@@ -7,7 +7,7 @@ import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Project from "./pages/project/project";
 import ProjectDetail from "./pages/project/projectDetail.jsx/project_Det";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Loader from "./components/Loader/loder";
 function App() {
 
