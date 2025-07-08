@@ -4,12 +4,11 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function ContactFormSection() {
   const formRef = useRef();
-  const [isSending, setIsSending] = useState(false); // State to track if sending
+  const [isSending, setIsSending] = useState(false); 
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setIsSending(true); // Disable button
-
+    setIsSending(true); 
     emailjs
       .sendForm(
         "YOUR_SERVICE_ID",     // e.g., "service_abc123"
