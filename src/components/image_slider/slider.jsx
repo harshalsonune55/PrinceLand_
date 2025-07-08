@@ -28,7 +28,7 @@ export default function ImageSlider() {
   }, []);
 
   return (
-    <section className="bg-[#fff7ee] py-10 relative w-full overflow-hidden">
+    <section className="bg-[#BBDEFB] py-10 relative w-full overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         {/* Image Slider Container */}
         <div className="relative w-full overflow-hidden rounded-md shadow-lg">

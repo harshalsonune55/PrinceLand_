@@ -7,7 +7,7 @@ export default function ContactFormSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
         {/* Left Info Section */}
         <div className="w-full md:w-1/2">
-          <p className="text-orange-500 font-semibold uppercase tracking-wide mb-2">Write a Message</p>
+          <p className="text-blue-500 font-semibold uppercase tracking-wide mb-2">Write a Message</p>
           <h2 className="text-4xl font-bold text-gray-800 mb-10 leading-snug">
             We’re here to help You
           </h2>
@@ -15,34 +15,36 @@ export default function ContactFormSection() {
           {/* Contact Item 1 */}
           <div className="flex items-start gap-4 mb-8">
             <div className="p-4 border rounded">
-              <FaPhoneAlt className="text-orange-500 text-xl" />
+              <FaPhoneAlt className="text-blue-500 text-xl" />
             </div>
             <div>
               <p className="text-gray-500 text-sm">Have any question?</p>
-              <p className="text-orange-500 font-semibold">Free +61 (313) 8376 6284</p>
+              <p className="text-blue-500 font-semibold">+91 99224 40957</p>
             </div>
           </div>
 
           {/* Contact Item 2 */}
           <div className="flex items-start gap-4 mb-8">
             <div className="p-4 border rounded">
-              <FaEnvelope className="text-orange-500 text-xl" />
+              <FaEnvelope className="text-blue-500 text-xl" />
             </div>
             <div>
               <p className="text-gray-500 text-sm">Write email</p>
-              <p className="text-gray-800 font-semibold">info@dax.com</p>
+              <p className="text-gray-800 font-semibold">princelandsngp@gmail.com</p>
             </div>
           </div>
 
           {/* Contact Item 3 */}
           <div className="flex items-start gap-4">
             <div className="p-4 border rounded">
-              <FaMapMarkerAlt className="text-orange-500 text-xl" />
+              <FaMapMarkerAlt className="text-blue-500 text-xl" />
             </div>
             <div>
               <p className="text-gray-500 text-sm">Visit anytime</p>
               <p className="text-gray-800 font-semibold">
-                2425 Westview Dr W, Seattle,<br />WA 98119, USA
+              PL No 200, Opposite Bhavnagri, <br/>
+Ring Road, Chhatrapati Nagar, Nagpur, Maharashtra 440015
+
               </p>
             </div>
           </div>
@@ -68,7 +70,7 @@ export default function ContactFormSection() {
             ></textarea>
             <button
               type="submit"
-              className="bg-orange-500 text-white py-3 rounded font-semibold hover:bg-orange-600 transition"
+              className="bg-blue-500 text-white py-3 rounded font-semibold hover:bg-green-700 transition"
             >
               Send A Message
             </button>

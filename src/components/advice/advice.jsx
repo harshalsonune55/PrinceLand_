@@ -32,7 +32,7 @@ export default function Testimonial() {
         </div>
 
         {/* Quote */}
-        <p className="text-xl md:text-2xl font-medium text-[#e6531d] leading-relaxed px-4">
+        <p className="text-xl md:text-2xl font-medium text-green-700 leading-relaxed px-4">
           “Quis lectus nulla at volutpat diam. Sed nisi lacus sed viverra tellus in hac. 
           Enim nunc faucibus a pellentesque sit. Commodo nulla facilisi nullam vehicula ipsum 
           a arcu cursus. Risus ultricies tristique nulla aliquet enim tortor.”

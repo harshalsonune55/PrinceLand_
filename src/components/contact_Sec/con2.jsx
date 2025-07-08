@@ -4,19 +4,19 @@ import "./con.css";
 
 const contentData = [
   {
-    heading: "Modern conveniences & entertainment, all within your reach",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac habitasse platea.",
-    subText: "Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.",
+    heading: "Experience a lifestyle where comfort, connectivity, and leisure come together effortlessly",
+    text: "Princelands Developers ensures every project is strategically located near essential amenities, shopping, and recreational hubs.",
+    subText: "Our layouts are thoughtfully planned to offer seamless access to schools, hospitals, and daily conveniences.",
   },
   {
-    heading: "Elegant living in the heart of the city",
-    text: "Experience upscale city living with stunning views, cutting-edge amenities, and green outdoor areas that support a healthy lifestyle.",
-    subText: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    heading: "Discover a refined lifestyle where modern infrastructure meets timeless elegance",
+    text: "We offer prime plots in Nagpur’s most sought-after locations, blending urban convenience with serene surroundings.",
+    subText: "",
   },
   {
-    heading: "A vibrant community tailored for you",
-    text: "Connect with neighbors in shared green spaces and enjoy thoughtfully designed apartments for comfort and privacy.",
-    subText: "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+    heading: "We design every project with your lifestyle in mind — from open spaces to essential amenities.",
+    text: "Our developments foster a sense of belonging, creating neighborhoods where you truly feel at home.",
+    subText: "",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function BuildingSlider() {
   }, [index]); // re-run interval on index change to reset timing
 
   return (
-    <section className="relative bg-[#fff7ee] py-10 overflow-hidden">
+    <section className="relative bg-[#BBDEFB] py-10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-9">
         {/* Left: Image */}
         <div className="flex-3 w-full">
@@ -75,13 +75,13 @@ export default function BuildingSlider() {
           <div className="flex items-center gap-6 mt-6">
             <button
               onClick={() => handleChange("prev")}
-              className="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center text-gray-800 hover:bg-gray-200"
+              className="w-10 h-10 border border-blue-600 rounded-full flex items-center justify-center text-green-800 hover:bg-blue-200"
             >
               <FaArrowLeft />
             </button>
             <button
               onClick={() => handleChange("next")}
-              className="w-10 h-10 border border-orange-500 rounded-full flex items-center justify-center text-orange-500 hover:bg-orange-100"
+              className="w-10 h-10 border border-blue-500 rounded-full flex items-center justify-center text-green-700 hover:bg-blue-100"
             >
               <FaArrowRight />
             </button>

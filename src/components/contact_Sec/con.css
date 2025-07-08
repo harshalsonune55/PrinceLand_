@@ -19,3 +19,79 @@
     transform: translateX(0);
   }
   
+
+  .stats-section {
+    background-color: #ffffff;
+    padding: 4rem 1rem;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .contact-us {
+    margin-bottom: 2.5rem;
+  }
+  
+  .contact-button {
+    font-weight: 600;
+    color: #1f2937; /* gray-800 */
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    color: #326ae2; /* orange-500 */
+  }
+  
+  .arrow {
+    color:rgb(18, 110, 231);
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    position: relative;
+  }
+  
+  @media (min-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .stat-block {
+    position: relative;
+    padding-right: 1.5rem;
+  }
+  
+  .with-line::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: #e2e8f0; /* gray-200 */
+    transform: skewY(-10deg);
+  }
+  
+  .stat-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2196F3; /* orange-500 */
+  }
+  
+  .stat-label {
+    margin-top: 0.5rem;
+    color: #374151; /* gray-700 */
+    font-weight: 600;
+  }
+  

@@ -10,24 +10,24 @@ import "./WhatWeDo.css";
 export default function WhatWeDo() {
   const features = [
     {
-      icon: <Building2 size={32} className="text-orange-500" />,
+      icon: <Building2 size={32} className="text-blue-500" />,
       title: "Modern Construction",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      icon: <FileText size={32} className="text-orange-500" />,
+      icon: <FileText size={32} className="text-blue-500" />,
       title: "Solving complex problems",
       desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
     },
     {
-      icon: <HardHat size={32} className="text-orange-500" />,
+      icon: <HardHat size={32} className="text-blue-500" />,
       title: "Professional specialists",
       desc:
         "Sodales ut etiam sit amet nisl purus in mollis. Ullamcorper malesuada proin libero nunc."
     },
     {
-      icon: <Lightbulb size={32} className="text-orange-500" />,
+      icon: <Lightbulb size={32} className="text-blue-500" />,
       title: "Creative approach",
       desc:
         "Maecenas volutpat blandit aliquam etiam erat. Dis parturient montes nascetur ridiculus mus. Diam donec adipiscing tristique."
@@ -39,8 +39,8 @@ export default function WhatWeDo() {
       <div className="flex flex-col lg:flex-row gap-12 items-start">
         {/* Left content */}
         <div className="lg:w-1/2">
-          <h4 className="text-orange-500 text-sm font-bold mb-2">
-            ── WHAT WE DO
+          <h4 className="text-blue-500 text-sm font-bold mb-2">
+            ── WHAT WE DO ──
           </h4>
           <h2 className="text-4xl font-extrabold leading-tight mb-6 text-gray-800">
             Quality construction. <br />

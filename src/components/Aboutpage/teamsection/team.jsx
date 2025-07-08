@@ -27,12 +27,12 @@ const agents = [
 
 export default function TeamSection() {
   return (
-    <section className="team-section bg-[#fff8ef] py-20 px-6 md:px-12 lg:px-24 relative">
+    <section className="team-section bg-babyblue py-20 px-6 md:px-12 lg:px-24 relative">
       <div className="flex justify-between items-start mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
           Our expert agents
         </h2>
-        <button className="border border-orange-500 text-orange-500 px-6 py-2 rounded hover:bg-orange-500 hover:text-white transition">
+        <button className="border border-blue-500 text-blue-500 px-6 py-2 rounded hover:bg-orange-500 hover:text-white transition">
           Contact us →
         </button>
       </div>

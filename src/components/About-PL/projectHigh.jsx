@@ -28,7 +28,7 @@ export default function ProjectHighlight() {
             faucibus turpis.
           </p>
           <Link to="/projects">
-            <button className="mt-6 bg-gray-800 text-white px-6 py-3 rounded-md flex items-center gap-2 hover:bg-gray-900 transition">
+            <button className="mt-6 bg-blue-500 text-white px-6 py-3 rounded-md flex items-center gap-2 hover:bg-green-900 transition">
               <FaBookOpen /> See All Projects
             </button>
           </Link>

@@ -10,6 +10,9 @@ import BenefitsSection from "../../components/benefits/benefit";
 import StatsSection from "../../components/contact_Sec/con";
 import LatestProject from "../../components/LT_pro/lt";
 import FooterSection from "../../components/footer/footer";
+import BrandShowcase from "../../components/barnd/brand";
+import TimelineIntro from "../../components/Timeline/timeline1";
+import TestimonialsSectionREview from "../../components/reviews/review";
 
 export default function Home() {
     return (
@@ -19,12 +22,15 @@ export default function Home() {
             <ProjectHighlight/>
             <Testimonial/>
             <LuxuryVideoBanner/>
+            <TimelineIntro/>
             <Timeline/>
             <ApartmentTabs/>
             <ImageSlider/>
             <BenefitsSection/>
             <StatsSection/>
             <LatestProject/>
+            <TestimonialsSectionREview/>
+            <BrandShowcase/>
             <FooterSection/>
         </>
     );

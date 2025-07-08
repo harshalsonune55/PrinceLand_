@@ -23,4 +23,9 @@ nav {
       transform: translateY(0);
     }
   }
+
+  .dropdown-animate {
+    transition: all 0.3s ease;
+  }
+  
   

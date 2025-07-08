@@ -55,8 +55,8 @@ export default function ApartmentTabs() {
             onClick={() => setActiveTab(index)}
             className={`px-6 py-3 text-lg font-medium transition-all ${
               activeTab === index
-                ? "text-orange-500 border-b-2 border-orange-500"
-                : "text-gray-700 hover:text-orange-400"
+                ? "text-blue-700 border-b-2 border-blue-500"
+                : "text-grey-700 hover:text-blue-700"
             }`}
           >
             {tab.label}
@@ -80,7 +80,7 @@ export default function ApartmentTabs() {
         {/* Details */}
         <div className={`text-center md:text-left ${!isEven && "md:order-first"}`}>
           <p className="text-gray-500 text-sm mb-2">From</p>
-          <h3 className="text-5xl font-bold text-orange-500 mb-4">{area}</h3>
+          <h3 className="text-5xl font-bold text-blue-500 mb-4">{area}</h3>
           <p className="text-gray-600 mb-6 max-w-md">{description}</p>
           <button className="border px-6 py-2 text-gray-800 font-medium rounded hover:bg-orange-100">
             Show offer of apartments

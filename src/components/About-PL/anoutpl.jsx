@@ -7,14 +7,14 @@ export default function AboutDaxx() {
       <div className="absolute left-0 top-1/2 transform -translate-y-1/2 opacity-10 z-0">
         <img
           src="/main_o1.png" // <-- Replace with your light logo bg image
-          alt="Daxx Logo Background"
+          alt="PrinceLand logo"
           className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px]"
         />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
-        <p className="text-orange-600 font-semibold text-sm tracking-wider uppercase relative inline-block mb-4 before:content-[''] before:absolute before:left-[-40px] before:top-1/2 before:w-8 before:h-[1px] before:bg-orange-500 after:content-[''] after:absolute after:right-[-40px] after:top-1/2 after:w-8 after:h-[1px] after:bg-orange-500 ">
+        <p className="text-green-700 font-semibold text-sm tracking-wider uppercase relative inline-block mb-4 before:content-[''] before:absolute before:left-[-40px] before:top-1/2 before:w-8 before:h-[1px] before:bg-orange-500 after:content-[''] after:absolute after:right-[-40px] after:top-1/2 after:w-8 after:h-[1px] after:bg-orange-500 ">
           About PrinceLand Developers
         </p>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight go">

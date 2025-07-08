@@ -1,34 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 const timelineSteps = [
   {
-    date: 'January 2023',
-    text: 'Massa sed elementum tempus',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline1.jpg', // Replace with actual image
-  },
-  {
-    date: 'Spring 2024',
-    text: 'Building permit',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline2.jpg',
-  },
-  {
-    date: 'Summer 2024',
-    text: 'Beginning of construction',
+    date: '2004',
+    text: 'Foundation Laid Princelands Developers is established in Nagpur with a mission to provide trustworthy and transparent land development solutions.',
     image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline1.jpg',
   },
   {
-    date: 'December 2024',
-    text: 'Completion of construction',
+    date: '2010 – 25',
+    text: 'Projects Milestone Achieved a key milestone of completing 25 successful layout projects across Nagpur, building early credibility and trust among clients.',
+    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline2.jpg',
+  },
+  {
+    date: '2014 – Strategic Association with ABSAY',
+    text: 'Partnered with Akhil Bharatiya Sena Awaas Yojana (ABSAY) to support defence personnel in acquiring legally clear land—strengthening our commitment to service and national trust.',
+    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline1.jpg',
+  },
+  {
+    date: '2018 – Crossing 75 Projects & 15,000 Clients',
+    text: 'Expanded our footprint with over 75 completed projects and a growing clientele, including NRIs and first-time homebuyers, emphasizing transparency and long-term value.',
+    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline4.jpg',
+  },
+  {
+    date: '2025',
+    text: '21 Years Strong: 125+ Projects & Global Trust Celebrating 21 years of excellence with 125+ projects delivered and a client base of over 25,000, including 20% NRIs—marking Princelands Developers as one of Nagpur’s most reliable names in real estate.',
     image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline4.jpg',
   },
 ];
 
 export default function Timeline() {
   const [current, setCurrent] = useState(0);
+  const containerRef = useRef(null);
+  const [arrowTop, setArrowTop] = useState(0);
+
+  // Adjust arrow position on mount and when current changes
+  useEffect(() => {
+    const container = containerRef.current;
+    if (container) {
+      const itemHeight = container.querySelector('div')?.offsetHeight || 80;
+      setArrowTop(current * itemHeight);
+    }
+  }, [current]);
 
   return (
-    <div className="flex flex-col md:flex-row p-8 space-x-0 md:space-x-8 items-center justify-center">
-      {/* Left side image that changes based on current step */}
+    <div className="flex flex-col md:flex-row p-9 space-x-0 md:space-x-8 items-start justify-center">
+      {/* Left Image */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
         <img
           src={timelineSteps[current].image}
@@ -37,20 +54,18 @@ export default function Timeline() {
         />
       </div>
 
-      {/* Right side timeline */}
-      <div className="w-full md:w-1/2 space-y-6 relative">
-        <h2 className="text-orange-500 font-bold uppercase text-sm tracking-wide">
-          Timeline
-        </h2>
-        <h1 className="text-4xl font-bold text-gray-800">
-          Where innovation will <br /> inspire you
-        </h1>
-        <p className="text-gray-500">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis.
-        </p>
+      {/* Right Timeline Section */}
+      <div className="w-full md:w-1/2 relative">
+        {/* Arrow */}
+        <div
+          className="absolute -left-8 text-blue-500 transition-all duration-500"
+          style={{ top: `${arrowTop + 6}px` }} // 6px offset to vertically center with dot
+        >
+          <FaArrowRight className="text-xl" />
+        </div>
 
-        {/* Timeline steps */}
-        <div className="relative mt-6 space-y-6">
+        {/* Timeline Items */}
+        <div ref={containerRef} className="space-y-6">
           {timelineSteps.map((step, index) => (
             <div
               key={index}
@@ -58,21 +73,19 @@ export default function Timeline() {
               onClick={() => setCurrent(index)}
             >
               <div
-                className={`w-6 h-6 flex items-center justify-center rounded-full border-2 transition duration-300 ${
-                  current === index ? 'border-orange-500' : 'border-gray-400'
-                }`}
+                className={`w-10 h-10 flex items-center justify-center rounded-full border-2 transition duration-300 ${current === index ? 'border-green-500' : 'border-gray-400'
+                  }`}
               >
                 <div
-                  className={`w-2 h-2 rounded-full transition duration-300 ${
-                    current === index ? 'bg-orange-500' : 'bg-gray-500'
-                  }`}
+                  className={`w-4 h-4 rounded-full transition duration-300 ${current === index ? 'bg-blue-500' : 'bg-gray-500'
+                    }`}
                 ></div>
               </div>
+
               <div>
                 <h3
-                  className={`text-lg font-semibold ${
-                    current === index ? 'text-orange-500' : 'text-gray-800'
-                  }`}
+                  className={`text-lg font-semibold ${current === index ? 'text-blue-500' : 'text-gray-800'
+                    }`}
                 >
                   {step.date}
                 </h3>
@@ -81,14 +94,6 @@ export default function Timeline() {
             </div>
           ))}
         </div>
-
-        {/* Navigation button (optional) */}
-        <button
-          onClick={() => setCurrent((prev) => (prev + 1) % timelineSteps.length)}
-          className="absolute -left-10 top-2 text-orange-500 text-2xl"
-        >
-          ←
-        </button>
       </div>
     </div>
   );

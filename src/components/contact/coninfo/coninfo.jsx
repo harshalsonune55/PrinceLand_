@@ -27,7 +27,7 @@ const projects = [
 
 export default function ProjectCards() {
   return (
-    <section className="bg-orange-50 py-16">
+    <section className="bg-blue-100 py-16">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {projects.map((item, index) => (
           <div
@@ -35,7 +35,7 @@ export default function ProjectCards() {
             className="group bg-white text-center p-20 shadow-sm transition rounded hover:bg-black"
           >
             <div className="mb-4 flex justify-center">
-              <div className="text-orange-500 text-4xl group-hover:text-white transition">
+              <div className="text-blue-500 text-4xl group-hover:text-white transition">
                 {item.icon}
               </div>
             </div>

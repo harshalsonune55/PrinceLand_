@@ -7,7 +7,7 @@ export default function AboutBanner() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/aboutbg.png" // Replace with your actual image path
+          src="/About Us Main Image Banner.jpg" // Replace with your actual image path
           alt="About Background"
           className="w-full h-full object-cover centre-top"
         />
@@ -15,12 +15,12 @@ export default function AboutBanner() {
 
 
       {/* Content */}
-      <div className="relative z-20 max-w-6xl mx-auto px-6 pt-32 md:pt-48">
+      <div className="relative z-20 max-w-6xl mx-auto px-6 pt-32 md:pt-48 ">
         <nav className="text-sm text-white/80 mb-4">
           Home <span className="mx-2">→</span>{" "}
-          <span className="text-orange-500">About Us</span>
+          <span className="text-blue-500">About Us</span>
         </nav>
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">About Us</h1>
+        <h1 className="text-9xl md:text-6xl font-bold mb-5 joi">About Us</h1>
         <p className="text-lg text-white/80">
           Let’s Create Something new and awesome together.
         </p>

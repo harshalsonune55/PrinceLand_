@@ -28,7 +28,7 @@ const cards = [
 
 export default function ProjectCards() {
   return (
-    <section className="bg-[#fff7ee] py-16 px-6">
+    <section className="bg-[#BBDEFB] py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-4">
           {cards.map((card, index) => (
