@@ -5,27 +5,27 @@ const timelineSteps = [
   {
     date: '2004',
     text: 'Foundation Laid Princelands Developers is established in Nagpur with a mission to provide trustworthy and transparent land development solutions.',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline1.jpg',
+    image: 'Milestone Start.jpg',
   },
   {
     date: '2010 – 25',
     text: 'Projects Milestone Achieved a key milestone of completing 25 successful layout projects across Nagpur, building early credibility and trust among clients.',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline2.jpg',
+    image: '21 years and Growth.jpg',
   },
   {
     date: '2014 – Strategic Association with ABSAY',
     text: 'Partnered with Akhil Bharatiya Sena Awaas Yojana (ABSAY) to support defence personnel in acquiring legally clear land—strengthening our commitment to service and national trust.',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline1.jpg',
+    image: 'Milestone Strategic.jpg',
   },
   {
     date: '2018 – Crossing 75 Projects & 15,000 Clients',
     text: 'Expanded our footprint with over 75 completed projects and a growing clientele, including NRIs and first-time homebuyers, emphasizing transparency and long-term value.',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline4.jpg',
+    image: 'Milestone 75.jpg',
   },
   {
     date: '2025',
     text: '21 Years Strong: 125+ Projects & Global Trust Celebrating 21 years of excellence with 125+ projects delivered and a client base of over 25,000, including 20% NRIs—marking Princelands Developers as one of Nagpur’s most reliable names in real estate.',
-    image: 'https://daxx.lohatheme.com/wp-content/uploads/2024/02/timeline4.jpg',
+    image: 'Milestone 25.jpg',
   },
 ];
 

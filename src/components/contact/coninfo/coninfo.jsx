@@ -2,26 +2,26 @@ import React from "react";
 import {
   FaBuilding,
   FaPersonBooth,
-  FaHome,
+  FaGlobeAmericas,
   FaMonument,
 } from "react-icons/fa";
 
 const projects = [
   {
     icon: <FaBuilding />,
-    title: "Tower Business Center",
+    title: "Trusted Development",
   },
   {
     icon: <FaPersonBooth />,
-    title: "Kvartal Residences",
+    title: "Legal Assurance",
   },
   {
-    icon: <FaHome />,
-    title: "Premium Park Residences",
+    icon: <FaGlobeAmericas />,
+    title: "Global Reach",
   },
   {
     icon: <FaMonument />,
-    title: "Alexandria Residences",
+    title: "Smart Investment",
   },
 ];
 

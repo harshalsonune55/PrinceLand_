@@ -19,13 +19,11 @@ export default function ProjectHighlight() {
         {/* Right - Text */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 leading-snug">
-            Location, Community, <br />
-            Quality Living. It Starts Here!
+          We craft well-connected <br/>
+          communities in prime Nagpur locations.
           </h2>
           <p className="mt-4 text-gray-600 text-base md:text-lg leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua sed
-            faucibus turpis.
+          Every development is designed to offer quality living with thoughtful planning, security, and long-term value.
           </p>
           <Link to="/projects">
             <button className="mt-6 bg-blue-500 text-white px-6 py-3 rounded-md flex items-center gap-2 hover:bg-green-900 transition">

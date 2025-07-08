@@ -11,26 +11,26 @@ export default function WhatWeDo() {
   const features = [
     {
       icon: <Building2 size={32} className="text-blue-500" />,
-      title: "Modern Construction",
+      title: " ⁠Legally Secure Plots",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Every project is approved by NMRDA and registered under RERA, ensuring full legal compliance and buyer confidence."
     },
     {
       icon: <FileText size={32} className="text-blue-500" />,
-      title: "Solving complex problems",
-      desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+      title: "Ready-to-Construct Layouts",
+      desc: "We deliver plots with clear titles, developed infrastructure, and immediate construction readiness."
     },
     {
       icon: <HardHat size={32} className="text-blue-500" />,
-      title: "Professional specialists",
+      title: "Trusted by Thousands",
       desc:
-        "Sodales ut etiam sit amet nisl purus in mollis. Ullamcorper malesuada proin libero nunc."
+        "With over 25,000 clients, including 20% NRIs, our reputation is built on transparency and consistent delivery."
     },
     {
       icon: <Lightbulb size={32} className="text-blue-500" />,
-      title: "Creative approach",
+      title: "⁠Defence & National Service Support",
       desc:
-        "Maecenas volutpat blandit aliquam etiam erat. Dis parturient montes nascetur ridiculus mus. Diam donec adipiscing tristique."
+        "In collaboration with ABSAY, we proudly assist defence personnel in securing legally clear land across India."
     }
   ];
 
@@ -43,15 +43,14 @@ export default function WhatWeDo() {
             ── WHAT WE DO ──
           </h4>
           <h2 className="text-4xl font-extrabold leading-tight mb-6 text-gray-800">
-            Quality construction. <br />
-            Honest service. <br />
-            Great value.
+           At Princelands Developers, we specialize in legally secure, NMRDA-sanctioned and<br/>
+           RERA-registered plotted developments across<br/>
+           prime Nagpur locations.
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Malesuada pellentesque elit eget gravida. Elit sed vulputate mi sit
-            amet mauris commodo. In hac habitasse platea dictumst. Odio tempor
-            orci dapibus ultrices. Volutpat sed cras ornare arcu dui vivamus
-            arcu felis. Sed elementum tempus egestas.
+          With a legacy of 125+ successful projects, we focus on creating ready-to-construct plots that offer lasting value and trust.
+           Our client-first approach ensures transparent service, legal integrity,
+            and future-ready investments for both residents and NRIs.
           </p>
         </div>
 

@@ -43,7 +43,7 @@ export default function ContactFormSection() {
               <p className="text-gray-500 text-sm">Visit anytime</p>
               <p className="text-gray-800 font-semibold">
               PL No 200, Opposite Bhavnagri, <br/>
-Ring Road, Chhatrapati Nagar, Nagpur, Maharashtra 440015
+              Ring Road, Chhatrapati Nagar, Nagpur, Maharashtra 440015
 
               </p>
             </div>
