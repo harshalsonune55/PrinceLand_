@@ -95,3 +95,18 @@
     font-weight: 600;
   }
   
+
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 2rem;
+  }
+  
+  .stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+  }
+  
