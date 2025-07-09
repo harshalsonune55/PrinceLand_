@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h2{
+    opacity: 0.8;
+    font-weight: 700;
+}
