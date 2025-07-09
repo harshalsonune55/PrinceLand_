@@ -62,10 +62,10 @@ export default function WhatWeDo() {
               className="p-6 border border-gray-200 rounded shadow-sm bg-white relative"
             >
               <div className="mb-4">{feature.icon}</div>
-              <h3 className="text-md font-semibold text-gray-800 mb-2">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">
                 {feature.title}
               </h3>
-              <p className="text-sm text-gray-600">{feature.desc}</p>
+              <p className="text-lg text-gray-600">{feature.desc}</p>
               <div className="absolute bottom-0 left-0 w-full h-3 bg-gradient-to-r from-gray-100 to-transparent transform -skew-y-2 origin-bottom-left opacity-60"></div>
             </div>
           ))}

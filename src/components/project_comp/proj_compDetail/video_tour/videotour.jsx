@@ -4,7 +4,7 @@ import "./videotour.css";
 
 export default function VideoTour() {
   return (
-    <section className="bg-[#fff8f1] py-20 px-6">
+    <section className="bg-[#BBDEFB] py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-6">
         {/* Left: Video Thumbnail */}
         <div className="relative group">
@@ -22,13 +22,13 @@ export default function VideoTour() {
 
         {/* Right: Text Content */}
         <div>
-          <h4 className="text-orange-500 font-bold mb-2 border-t border-b border-orange-500 inline-block px-4 py-1">
+          <h4 className="text-blue-500 font-bold mb-2 border-t border-b border-blue-500 inline-block px-4 py-1">
             TOUR
           </h4>
-          <h2 className="text-4xl font-bold mb-4 text-gray-800">
+          <h2 className="text-6xl font-bold mb-4 text-gray-800">
             Video tour
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-lg text-4xl">
             Cursus in hac habitasse platea dictumst quisque sagittis purus.
             Dolor sit amet consectetur adipiscing elit ut.
           </p>

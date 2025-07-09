@@ -79,9 +79,9 @@ export default function ApartmentTabs() {
 
         {/* Details */}
         <div className={`text-center md:text-left ${!isEven && "md:order-first"}`}>
-          <p className="text-gray-500 text-sm mb-2">From</p>
-          <h3 className="text-5xl font-bold text-blue-500 mb-4">{area}</h3>
-          <p className="text-gray-600 mb-6 max-w-md">{description}</p>
+          <p className="text-gray-500 text-lg mb-2">From</p>
+          <h3 className="text-7xl font-bold text-blue-500 mb-4">{area}</h3>
+          <p className="text-gray-600 text-lg mb-6 max-w-md">{description}</p>
           <button className="border px-6 py-2 text-gray-800 font-medium rounded hover:bg-orange-100">
             Show offer of apartments
           </button>

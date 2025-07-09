@@ -64,11 +64,11 @@ export default function BuildingSlider() {
         {/* Right: Text with slider */}
         <div className="flex-1 transition-wrapper">
           <div className={`transition-content ${animating ? "fade-out" : "fade-in"}`}>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">
               {contentData[index].heading}
             </h2>
-            <p className="text-gray-600 mb-4">{contentData[index].text}</p>
-            <p className="text-gray-600">{contentData[index].subText}</p>
+            <p className="text-gray-600 mb-4 text-lg">{contentData[index].text}</p>
+            <p className="text-gray-600 text-lg">{contentData[index].subText}</p>
           </div>
 
           {/* Navigation */}

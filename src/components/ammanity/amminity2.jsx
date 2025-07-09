@@ -11,7 +11,7 @@ export default function AmenitiesSection() {
       </div>
 
       {/* Title */}
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight" style={{"fontSize":"4rem"}}>
+      <h2 className="text-5xl md:text-5xl font-bold text-gray-800 leading-tight" style={{"fontSize":"4rem"}}>
         Home is where the <br /> amenities are
       </h2>
 

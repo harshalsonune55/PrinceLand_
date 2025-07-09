@@ -15,13 +15,13 @@ export default function TimelineIntro() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-5xl md:text-5xl font-bold text-gray-800 leading-tight">
             Where innovation will inspire you
           </h2>
         </div>
 
         {/* Right Section */}
-        <div className="text-gray-600 text-lg">
+        <div className="text-gray-600 text-2xl">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam

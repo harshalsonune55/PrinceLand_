@@ -54,7 +54,7 @@ export default function BenefitsSection() {
                 BENEFITS
                 <span className="h-px w-10 bg-blue-500" />
               </h3>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-4 leading-snug" style={{"fontSize":"4rem"}}>
+              <h2 className="text-6xl md:text-4xl font-bold text-gray-800 mt-4 leading-snug" style={{"fontSize":"4rem"}}>
                 Apartments tailored to your highest standards
               </h2>
             </div>
@@ -67,10 +67,10 @@ export default function BenefitsSection() {
                 <div className="text-blue-500">{benefit.icon}</div>
               </div>
               <div>
-                <h4 className="text-gray-800 font-semibold mb-1">
+                <h4 className="text-gray-800 text-[1.2rem] font-semibold mb-1">
                   {benefit.title}
                 </h4>
-                <p className="text-gray-600 text-sm">{benefit.text}</p>
+                <p className="text-gray-600 text-lg">{benefit.text}</p>
               </div>
             </div>
           ))}
