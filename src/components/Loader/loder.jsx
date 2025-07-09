@@ -1,11 +1,13 @@
 import React from "react";
 
-const Loader = () => {
+export default function LoadingLogo() {
   return (
-    <div className="fixed inset-0 bg-white flex items-center justify-center z-50">
-      <div className="w-16 h-16 border-4 border-orange-500 border-dashed rounded-full animate-spin"></div>
+    <div className="flex items-center justify-center h-screen bg-white">
+      <img
+        src="/main.png" // replace with your actual logo path
+        alt="Princeland Logo"
+        className="w-24 h-24 object-contain animate-pulse"
+      />
     </div>
   );
-};
-
-export default Loader;
+}
