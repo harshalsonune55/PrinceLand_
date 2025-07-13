@@ -6,7 +6,7 @@ export default function LuxuryVideoBanner() {
     <section className="relative w-full h-[500px] md:h-[600px] overflow-hidden">
       {/* Background Image */}
       <img
-        src="https://daxx.lohatheme.com/wp-content/uploads/2024/02/video-bg.jpg" // Replace with your image path
+        src="/princelnd_photos/home page/Video Background (Home page) (1920x518).jpg" // Replace with your image path
         alt="Luxury Apartment"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

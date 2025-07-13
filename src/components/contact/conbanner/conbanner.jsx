@@ -5,7 +5,7 @@ export default function ContactHeader() {
   return (
     <div
       className="relative w-full h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('contact-bg3.jpg')" }} // Replace with your image path
+      style={{ backgroundImage: "url('/princelnd_photos/home page/contact us.jpg')" }} // Replace with your image path
     >
       <div className="absolute top-[240px] left-[100px] text-white">
         <div className="text-sm text-blue-500 mb-2">

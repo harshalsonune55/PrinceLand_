@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const images = [
-  "https://daxx.lohatheme.com/wp-content/uploads/2024/02/slide1.jpg",
-  "https://daxx.lohatheme.com/wp-content/uploads/2024/02/slide1.jpg",
-  "https://daxx.lohatheme.com/wp-content/uploads/2024/02/slide1.jpg",
+  "/princelnd_photos/home page/Slider image 1.jpg",
+  "/princelnd_photos/home page/slider image 2.jpg",
+  "/princelnd_photos/home page/slider image 3.jpg",
 ];
 
 export default function ImageSlider() {

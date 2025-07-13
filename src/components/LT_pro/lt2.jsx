@@ -9,19 +9,19 @@ const cards = [
   {
     title: "Tower Business Center",
     text: "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
-    image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+    image: "/princelnd_photos/home page/project image ( VED ).jpg",
     icon: <FaBuilding size={24} />,
   },
   {
     title: "Kvartal Residences",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores reprehenderit.",
-    image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer2.jpg",
+    image: "/princelnd_photos/home page/Project images (parkview).jpg",
     icon: <FaWarehouse size={24} />,
   },
   {
     title: "Premium Park Residences",
     text: "Aliquam ultrices sagittis orci a scelerisque purus semper eget. Vitae tortor condimentum lacinia quis.",
-    image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+    image: "/princelnd_photos/home page/Project images (prospera).jpg",
     icon: <FaWarehouse size={24} />,
   },
 ];

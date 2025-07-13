@@ -10,7 +10,7 @@ export default function ProjectHighlight() {
         {/* Left - Main Building Image */}
         <div className="w-full md:w-1/2">
           <img
-            src="https://daxx.lohatheme.com/wp-content/uploads/2024/02/about-left.jpg"
+            src="/princelnd_photos/home page/about_l_h.jpg"
             alt="Modern Building"
             className="rounded-lg shadow-md object-cover w-full"
           />
@@ -37,7 +37,7 @@ export default function ProjectHighlight() {
       <div className="relative z-10 max-w-4xl mx-auto -mt-10 potter">
         <div className="relative">
           <img
-            src="https://daxx.lohatheme.com/wp-content/uploads/2024/02/about-right.jpg"
+            src="/princelnd_photos/home page/About-Right(Home page.jpg"
             alt="Building Bottom Right"
             className="w-full h-full object-cover"
           />

@@ -25,7 +25,8 @@ const ProjectsHeader = () => {
       id: 1,
       city: "Recently Completed Star Projects",
       name: "Vrindavan Park",
-      image: "Vrindavan_Park.png",
+      image: "/public/princelnd_photos/projects/vrindavan 2.jpg",
+      image2: "/princelnd_photos/projects/vrindavan.jpg",
       description:
         "NH 353(I) touch, a 35-acre layout, 400 plots, 2 km from Samruddhi Junction Point",
       icon: <FaBuilding size={24} />,
@@ -34,7 +35,8 @@ const ProjectsHeader = () => {
       id: 2,
       city: "Recently Completed Star Projects",
       name: "Silver Icon 1 & 2",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+      image: "/princelnd_photos/projects/silver 2.jpg",
+      image2: "/princelnd_photos/projects/silver.jpg",
       description:
         "Shankarpur Area, 3 kms from Wardha Road",
       icon: <FaBuilding size={24} />,
@@ -43,7 +45,8 @@ const ProjectsHeader = () => {
       id: 3,
       city: "Recently Completed Star Projects",
       name: "Silver Park 1 to 15",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+      image: "/princelnd_photos/projects/parkview 2.jpg",
+      image2: "/princelnd_photos/projects/silver.jpg",
       description:
         "Gotal Panjri, 5 kms from Wardha Road",
       icon: <FaBuilding size={24} />,
@@ -52,7 +55,8 @@ const ProjectsHeader = () => {
       id: 4,
       city: "Recently Completed Star Projects",
       name: "Samruddhi 1 to 8",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer1.jpg",
+      image: "/princelnd_photos/projects/samruddhi 2.jpg",
+      image2: "/princelnd_photos/projects/samruddhi.jpg",
       description:
         "4 kms from Samruddhi Junction Poin",
       icon: <FaBuilding size={24} />,
@@ -61,7 +65,8 @@ const ProjectsHeader = () => {
       id: 5,
       city: "Running Layout Projects",
       name: "AGI Residency",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer2.jpg",
+      image: "/princelnd_photos/projects/Agi 2_.jpg",
+      image2: "/princelnd_photos/projects/AGI.jpg",
       description:
         "NH 353(I) touch, 140 plot layout",
       icon: <FaWarehouse size={24} />,
@@ -71,6 +76,7 @@ const ProjectsHeader = () => {
       city: "Running Layout Projects",
       name: "Green Gold",
       image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer2.jpg",
+      image2: "/princelnd_photos/projects/silver 2.jpg",
       description:
         "NH 353(I) touch, 140 plot layout",
       icon: <FaWarehouse size={24} />,
@@ -79,7 +85,8 @@ const ProjectsHeader = () => {
       id: 7,
       city: "Running Layout Projects",
       name: "AGI Colony",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer2.jpg",
+      image: "/princelnd_photos/projects/anjeneya 2.jpg",
+      image2: "/princelnd_photos/projects/anjeneya.jpg",
       description:
         "NH 353(I) touch, 140 plot layout",
       icon: <FaWarehouse size={24} />,
@@ -88,7 +95,8 @@ const ProjectsHeader = () => {
       id: 8,
       city: "Running Layout Projects",
       name: "Kuber Nagar",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer2.jpg",
+      image: "/princelnd_photos/projects/kubber nagri 2.jpg",
+      image2: "/princelnd_photos/projects/kubber.jpg",
       description:
         "NH 353(I) touch, 140 plot layout",
       icon: <FaWarehouse size={24} />,
@@ -97,7 +105,8 @@ const ProjectsHeader = () => {
       id: 9,
       name: "Prospera",
       city: "Running Flat Schemes Projects",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+      image: "/princelnd_photos/projects/prospera 2.jpg",
+      image2: "/princelnd_photos/projects/prospera.jpg",
       description:
         "Besa Square, Nagpur",
       icon: <FaWarehouse size={24} />,
@@ -107,6 +116,7 @@ const ProjectsHeader = () => {
       name: "Krishna Kunj",
       city: "Running Flat Schemes Projects",
       image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+      image2: "/princelnd_photos/projects/silver 2.jpg",
       description:
         "Swalambhi Nagar, Nagpur",
       icon: <FaWarehouse size={24} />,
@@ -116,6 +126,7 @@ const ProjectsHeader = () => {
       name: "Shree Enclav",
       city: "Running Flat Schemes Projects",
       image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+      image2: "/princelnd_photos/projects/silver 2.jpg",
       description:
         "Narendra Nagar Square, Nagpur",
       icon: <FaWarehouse size={24} />,
@@ -124,7 +135,8 @@ const ProjectsHeader = () => {
       id: 12,
       name: "Ved Enclave ",
       city: "Running Flat Schemes Projects",
-      image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+      image: "/princelnd_photos/projects/ved enclave 2.jpg",
+      image2: "/princelnd_photos/projects/ved enclave.jpg",
       description:
         "Sonegaon Lake, Nagpur",
       icon: <FaWarehouse size={24} />,
@@ -134,6 +146,7 @@ const ProjectsHeader = () => {
       name: " Shaisha Enclave ",
       city: "Running Flat Schemes Projects",
       image: "https://daxx.lohatheme.com/wp-content/uploads/2024/02/developer3.jpg",
+      image2: "/princelnd_photos/projects/silver 2.jpg",
       description:
         "Jaiprakash Nagar, Nagpur",
       icon: <FaWarehouse size={24} />,
@@ -300,27 +313,28 @@ const ProjectsHeader = () => {
 
       {/* // model */}
 
-{selectedProject && (
-  <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center">
-    <div className="bg-white p-6 rounded-lg shadow-lg max-w-md relative">
+      {selectedProject && (
+  <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center overflow-auto">
+    <div className="bg-white p-12 rounded-3xl shadow-2xl w-full max-w-6xl mx-6 my-12 relative">
       <button
-        className="absolute top-2 right-2 text-black"
+        className="absolute top-6 right-6 text-black text-3xl"
         onClick={() => setSelectedProject(null)}
       >
         ✕
       </button>
       <img
-        src={selectedProject.image}
+        src={selectedProject.image2}
         alt={selectedProject.name}
-        className="w-full h-64 object-cover rounded mb-4"
+        className="w-full h-[500px] object-cover rounded-2xl mb-8"
       />
-      <h3 className="text-xl font-bold mb-2">
-        {selectedProject.name}
-      </h3>
-      <p className="text-gray-700">{selectedProject.description}</p>
+      <h3 className="text-4xl font-bold mb-6">{selectedProject.name}</h3>
+      <p className="text-gray-800 text-xl leading-relaxed">
+        {selectedProject.description}
+      </p>
     </div>
   </div>
 )}
+
 
 
     </div>

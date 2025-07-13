@@ -55,7 +55,7 @@ export default function BuildingSlider() {
         {/* Left: Image */}
         <div className="flex-3 w-full">
           <img
-            src="https://daxx.lohatheme.com/wp-content/uploads/2024/02/features.jpg"
+            src="/princelnd_photos/home page/Features.jpg"
             alt="Building"
             className="w-full h-auto object-cover rounded"
           />

@@ -8,7 +8,7 @@ export default function Banner() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/bg_image.png"
+          src="/princelnd_photos/home page/Main Image home page.jpg"
           alt="Banner Background"
           className="w-full h-full object-cover object-[center_top_60%]"
         />
