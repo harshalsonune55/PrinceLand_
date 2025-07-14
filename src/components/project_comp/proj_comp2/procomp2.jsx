@@ -25,7 +25,7 @@ const ProjectsHeader = () => {
       id: 1,
       city: "Recently Completed Star Projects",
       name: "Vrindavan Park",
-      image: "/public/princelnd_photos/projects/vrindavan 2.jpg",
+      image: "/princelnd_photos/projects/vrindavan 2.jpg",
       image2: "/princelnd_photos/projects/vrindavan.jpg",
       description:
         "NH 353(I) touch, a 35-acre layout, 400 plots, 2 km from Samruddhi Junction Point",
