@@ -7,24 +7,30 @@ import {
 
 const cards = [
   {
-    title: "Tower Business Center",
-    text: "Volutpat diam ut venenatis tellus in metus vulputateondimentum vitae sapien pellentesque habitant morbi tristique.",
-    image: "/princelnd_photos/home page/project image ( VED ).jpg",
+    title: "Silver Icon 1 & 2",
+    text: "Shankarpur Area, 3 kms from Wardha Road",
+    image: "/princelnd_photos/projects/silver 2.jpg",
     icon: <FaBuilding size={24} />,
   },
   {
-    title: "Kvartal Residences",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores reprehenderit.",
-    image: "/princelnd_photos/home page/Project images (parkview).jpg",
+    title: "AGI Residency",
+    text: "NH 353(I) touch, 140 plot layout",
+    image: "/princelnd_photos/projects/Agi 2_.jpg",
     icon: <FaWarehouse size={24} />,
   },
   {
-    title: "Premium Park Residences",
-    text: "Aliquam ultrices sagittis orci a scelerisque purus semper eget. Vitae tortor condimentum lacinia quis.",
-    image: "/princelnd_photos/home page/Project images (prospera).jpg",
+    title: "Samruddhi 1 to 8",
+    text: "4 kms from Samruddhi Junction Poin",
+    image: "/princelnd_photos/projects/samruddhi 2.jpg",
     icon: <FaWarehouse size={24} />,
   },
 ];
+
+
+function go_to_link(){
+  window.location.href = '/projects';
+}
+
 
 export default function ProjectCards() {
   return (
@@ -64,7 +70,7 @@ export default function ProjectCards() {
 
         {/* CTA Button */}
         <div className="mt-10 text-center">
-          <button className="bg-gray-800 text-white text-sm px-6 py-3 rounded-md hover:bg-gray-700 transition">
+          <button className="bg-gray-800 text-white text-sm px-6 py-3 rounded-md hover:bg-gray-700 transition" onClick={go_to_link}>
             See all projects
           </button>
         </div>
